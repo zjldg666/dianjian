@@ -1,7 +1,7 @@
 <template>
   <view class="container">
     <view class="login-box">
-      <view class="title">用户登录</view>
+      <view class="title">登录</view>
       <!-- 选择客户编码 -->
       <picker mode="selector" :range="clientCodes" @change="handleClientCodeChange">
         <view class="picker">
@@ -70,7 +70,7 @@ export default {
             const data = JSON.parse(res.data);
 			console.log("数据为:",data);
             if (data.IsError === false) {
-				console.log("数据为:",data);
+				
               uni.setStorageSync('token', data.token); // 存储token
               uni.setStorageSync('username', data.userName); // 存储用户名
               uni.setStorageSync('clientcode',this.selectedClientCode);

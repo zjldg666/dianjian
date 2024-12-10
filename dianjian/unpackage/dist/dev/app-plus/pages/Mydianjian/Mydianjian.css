@@ -77,24 +77,17 @@
 }
 
 
-/* 容器样式 */
+/* 样式部分保持不变 */
 .container {
   display: flex;
   flex-direction: column;
   height: 100vh;
   background-color: white;
 }
-/* 内容样式 */
 .content {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-}
-/* 标题样式 */
-.title {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #fff;
 }

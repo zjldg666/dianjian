@@ -140,6 +140,7 @@ export default {
     const token = uni.getStorageSync('token');
     // 加载点检详情
     this.loadInspectionDetails(this.inspectionPoint.id, token);
+
   },
   onPullDownRefresh() {
     // 处理下拉刷新
@@ -169,7 +170,7 @@ export default {
       }
       console.log('请求参数:', { code: id, token: token });
       uni.request({
-        url: 'http://13.94.38.44:8080/CheckList/GetCheckListDetail',
+        url: 'http://13.94.38.44:8080/CheckList/GetCheckListDetailNew',
         method: 'POST',
         data: {
           code: id,
@@ -345,7 +346,7 @@ export default {
                   icon: 'success'
                 });
                 uni.redirectTo({
-                  url: '/pages/inspection/inspection'
+                  url: '/pages/home/home'
                 });
               } else {
                 uni.showToast({

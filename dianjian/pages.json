@@ -3,26 +3,26 @@
         {
             "path" : "pages/login/login",
             "style" : {
-                "navigationBarTitleText" : "点检"
+                "navigationBarTitleText" : "login"
             }
         },
         {
             "path" : "pages/inspection/inspection",
             "style" : {
-                "navigationBarTitleText" : "点检",
+                "navigationBarTitleText" : "inspection",
 				"enablePullDownRefresh": true
             }
         },
         {
             "path" : "pages/detail/detail",
             "style" : {
-                "navigationBarTitleText" : "点检"
+                "navigationBarTitleText" : "detail"
             }
         },
         {
             "path" : "pages/home/home",
             "style" : {
-                "navigationBarTitleText" : "点检"
+                "navigationBarTitleText" : "home"
             }
         },
         {
@@ -33,8 +33,15 @@
         	"path" : "pages/project/project",
         	"style" : 
         	{
-        		"navigationBarTitleText" : "点检",
+        		"navigationBarTitleText" : "project",
 				"enablePullDownRefresh": true
+        	}
+        },
+        {
+        	"path" : "pages/Mydianjian/Mydianjian",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "Mydianjian"
         	}
         }
        

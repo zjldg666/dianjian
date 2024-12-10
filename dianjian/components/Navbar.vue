@@ -27,7 +27,7 @@ export default {
   background: white; /* 设置背景色为固定颜色 */
   color: black;
  
-    border-bottom: 1px solid #ccc; 
+    border-bottom: 1px solid  #ccc ; 
 }
 .logoBox {
   position: absolute;
@@ -43,12 +43,10 @@ export default {
 .username {}
 .nabutton {
   margin:10rpx;
-padding: 0;
+  padding: 0;
   width: 180rpx;
   background-color: white;
   color: black;
-border: none; /* 移除边框 */
-  outline: none; /* 移除外框 */
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   cursor: pointer;
 }
