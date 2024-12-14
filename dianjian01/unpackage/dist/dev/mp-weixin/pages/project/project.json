@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "点检",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "navbar": "../../components/Navbar"
+  }
+}

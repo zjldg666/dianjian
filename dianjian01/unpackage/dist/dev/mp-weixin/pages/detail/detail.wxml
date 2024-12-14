@@ -1,0 +1,1 @@
+<view class="container"><navbar wx:if="{{b}}" bindlogout="{{a}}" u-i="532a6852-0" bind:__l="__l" u-p="{{b}}"/><view class="content"><view class="inspection-point"><view class="inspection-name">检查位置>{{c}}</view><view class="scanner"><view class="scanner-animation"></view></view><button bindtap="{{d}}" class="button">点击扫描二维码</button></view></view></view>
