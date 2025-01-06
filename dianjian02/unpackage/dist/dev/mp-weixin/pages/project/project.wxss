@@ -1,0 +1,129 @@
+
+.container.data-v-e8179a1b {
+	
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+.content.data-v-e8179a1b {
+	width: 100%%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title.data-v-e8179a1b {
+  font-size: 40rpx;
+  margin:40rpx 20rpx;
+}
+.image-preview.data-v-e8179a1b {
+  position: relative;
+  display: inline-block;
+  margin: 20rpx;
+}
+.preview-image.data-v-e8179a1b {
+  width: 160rpx;
+  height: 160rpx;
+}
+.delete-button.data-v-e8179a1b {
+ position: absolute;
+   top: 0;
+   right: 0;
+   width: 60rpx;
+   height: 60rpx;
+   background-color: red;
+   color: white;
+   border: none;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+.item.data-v-e8179a1b {
+  width: 600rpx;
+  padding: 40rpx;
+  background-color: #fff;
+  box-shadow: 0 0 20rpx rgba(0,0,0,0.1);
+  border-radius: 20rpx;
+  margin-bottom: 40rpx;
+}
+.item-title.data-v-e8179a1b {
+  font-size: 40rpx;
+  margin-bottom: 40rpx;
+}
+.form-group.data-v-e8179a1b {
+  margin-bottom: 30rpx;
+}
+.input.data-v-e8179a1b {
+  width: 93%;
+  padding: 20rpx;
+  border: 2rpx solid #ccc;
+  border-radius: 10rpx;
+}
+.button-group.data-v-e8179a1b{
+	display: flex;
+	justify-content: space-between;
+}
+.Picbutton.data-v-e8179a1b{
+	width: 90%;
+	padding: 20rpx;
+	background-color: #007aff;
+	color: #fff;
+	text-align: center;
+	border: none;
+	border-radius: 10rpx;
+	cursor: pointer;
+}
+.button.data-v-e8179a1b {
+  width: 40%;
+  padding: 20rpx;
+  background-color: #007aff;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 10rpx;
+  cursor: pointer;
+}
+.selButton.data-v-e8179a1b {
+  width: 100rpx; /* 设置固定宽度 */
+  height: 100rpx; /* 设置固定高度 */
+  margin: 10rpx;
+  background-color: white; /* 默认灰色 */
+  color: #fff;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 50%; /* 圆形按钮 */
+  cursor: pointer;
+  display: flex; /* Flex 布局 */
+  align-items: center; /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+  overflow: hidden; /* 防止内容超出圆形边界 */
+}
+.selButton.selected.data-v-e8179a1b {
+  background-color: #007aff; /* 选择后蓝色 */
+}
+.icon-image.data-v-e8179a1b {
+  max-width: 100%; /* 图片最大宽度 */
+  max-height: 44rpx; /* 图片最大高度 */
+  border-radius: 50%; /* 确保图片也是圆形 */
+}
+.uploaded-image.data-v-e8179a1b {
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 20rpx;
+}
+.message.data-v-e8179a1b {
+  font-size: 36rpx;
+  color: #333;
+  margin-bottom: 40rpx;
+}
+.button.data-v-e8179a1b:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.button.data-v-e8179a1b:active {
+  background-color: #005bb5;
+}

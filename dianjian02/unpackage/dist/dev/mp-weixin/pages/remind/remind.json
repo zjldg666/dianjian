@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "remind",
+  "usingComponents": {
+    "navbar": "../../components/Navbar",
+    "button-group": "../../components/ButtonGroup"
+  }
+}

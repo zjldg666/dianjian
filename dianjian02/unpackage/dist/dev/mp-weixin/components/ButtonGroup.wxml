@@ -1,0 +1,1 @@
+<view class="button-group data-v-8e810d98"><view wx:for="{{a}}" wx:for-item="button" wx:key="f" class="ZujianButton-item data-v-8e810d98"><button disabled="{{button.d}}" bindtap="{{button.e}}" class="ZujianButton data-v-8e810d98">{{button.a}} <label wx:if="{{button.b}}" class="badge data-v-8e810d98">{{button.c}}</label></button></view></view>

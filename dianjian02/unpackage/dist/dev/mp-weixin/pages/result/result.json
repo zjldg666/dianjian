@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "result",
+  "usingComponents": {
+    "navbar": "../../components/Navbar",
+    "image-viewer": "../../components/ImageViewer"
+  }
+}

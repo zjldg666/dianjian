@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "report",
+  "usingComponents": {
+    "navbar": "../../components/Navbar"
+  }
+}

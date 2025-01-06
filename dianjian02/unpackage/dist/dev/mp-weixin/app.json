@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/inspection/inspection",
+    "pages/home/home",
+    "components/Navbar",
+    "pages/project/project",
+    "pages/Mydianjian/Mydianjian",
+    "pages/remind/remind",
+    "pages/YiChang/YiChang",
+    "pages/report/report",
+    "pages/detail/detail",
+    "pages/result/result"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

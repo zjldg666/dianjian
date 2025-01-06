@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "YiChang",
+  "usingComponents": {
+    "navbar": "../../components/Navbar",
+    "image-viewer": "../../components/ImageViewer"
+  }
+}

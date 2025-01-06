@@ -1,0 +1,50 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+.content {
+  flex: 1;
+  padding: 40rpx;
+}
+.header {
+  font-size: 48rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.detail-item {
+  margin-bottom: 20rpx;
+}
+.label {
+  font-weight: bold;
+  margin-right: 20rpx;
+}
+.images-container {
+  position: relative;
+  display: inline-block;
+  margin: 20rpx;
+}
+.image {
+  width: 160rpx;
+  height: 160rpx;
+  margin-right: 20rpx;
+  cursor: pointer;
+}
+.no-data {
+  margin-top: 40rpx;
+  font-size: 32rpx;
+  color: #888;
+}
+
+/* 图标样式 */
+.Fuhao {
+  width: 25rpx;
+  height: 25rpx;
+}
+.loading {
+  margin-top: 40rpx;
+  font-size: 32rpx;
+  color: #888;
+}
