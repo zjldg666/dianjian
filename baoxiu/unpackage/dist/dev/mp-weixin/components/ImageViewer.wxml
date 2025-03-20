@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="image-viewer data-v-a9a40036" bindtap="{{d}}"><view class="close-btn data-v-a9a40036" catchtap="{{b}}">X</view><image src="{{c}}" class="preview-image data-v-a9a40036"></image></view>

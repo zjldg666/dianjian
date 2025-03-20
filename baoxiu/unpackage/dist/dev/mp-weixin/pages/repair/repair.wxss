@@ -1,0 +1,82 @@
+
+text.data-v-ad4deb87{
+	line-height: 86rpx;
+}
+.container.data-v-ad4deb87 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+.content.data-v-ad4deb87 {
+  width: 90%;
+  max-width: 800rpx;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40rpx;
+}
+.imageButton.data-v-ad4deb87{
+	width: 50%;
+	height: ;
+}
+.form-group.data-v-ad4deb87{
+	 margin-bottom: 20px;
+}
+.form-item.data-v-ad4deb87 {
+  margin-bottom: 20px;
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  height: 90rpx;
+}
+.input.data-v-ad4deb87 {
+  width: 60%;
+  padding: 20rpx;
+  border: 2rpx solid #ccc;
+  border-radius: 10rpx;
+  color: red;
+}
+.textarea.data-v-ad4deb87{
+	padding: 20rpx;
+	border: 2rpx solid #ccc;
+	border-radius: 10rpx;
+}
+.image-preview.data-v-ad4deb87 {
+  position: relative;
+  display: inline-block;
+  margin: 20rpx;
+}
+.preview-image.data-v-ad4deb87 {
+  width: 160rpx;
+  height: 160rpx;
+}
+.delete-button.data-v-ad4deb87 {
+ position: absolute;
+   top: 0;
+   right: 0;
+   width: 60rpx;
+   height: 60rpx;
+   background-color: red;
+   color: white;
+   border: none;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+.button-row.data-v-ad4deb87 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+}
+.button-group button.data-v-ad4deb87 {
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 10px;
+}
+.button-group button.data-v-ad4deb87:last-child {
+  margin-right: 0;
+}

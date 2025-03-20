@@ -1,0 +1,28 @@
+
+.image-viewer.data-v-a9a40036 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* 确保在最上层 */
+}
+.preview-image.data-v-a9a40036 {
+  max-width: 90%;
+  max-height: 90%; /* 调整为略小于100%以便留出空间给关闭按钮 */
+}
+
+/* 添加样式用于关闭按钮 */
+.close-btn.data-v-a9a40036 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1001; /* 确保关闭按钮在图片之上 */
+}

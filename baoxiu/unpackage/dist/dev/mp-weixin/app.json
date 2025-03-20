@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/home/home",
+    "pages/repair/repair",
+    "pages/copy/copy",
+    "pages/mobileRepair/mobileRepair",
+    "pages/repairList/repairList",
+    "pages/baoxiuMIngxi/baoxiuMIngxi",
+    "pages/weixiuMingxi/weixiuMingxi"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

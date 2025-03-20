@@ -1,0 +1,120 @@
+
+.navbar[data-v-35616072] {
+  width: 100%;
+  height: 2.8125rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 1;
+  background: white; /* 设置背景色为固定颜色 */
+  color: black;
+ 
+    border-bottom: 1px solid  #ccc ;
+}
+.logoBox[data-v-35616072] {
+  position: absolute;
+  left: 1rem;
+  top:0.4375rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  opacity: 1;
+}
+.logo[data-v-35616072] {
+  height: 1.875rem;
+}
+.username[data-v-35616072] {}
+.nabutton[data-v-35616072] {
+  margin:0.3125rem;
+  padding: 0;
+  width: 5.625rem;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0.625rem rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+.button[data-v-35616072]:active {
+  background-color: #c32f27;
+}
+
+
+uni-text[data-v-ad4deb87]{
+	line-height: 2.6875rem;
+}
+.container[data-v-ad4deb87] {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+.content[data-v-ad4deb87] {
+  width: 90%;
+  max-width: 25rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+}
+.imageButton[data-v-ad4deb87]{
+	width: 50%;
+	height: ;
+}
+.form-group[data-v-ad4deb87]{
+	 margin-bottom: 20px;
+}
+.form-item[data-v-ad4deb87] {
+  margin-bottom: 20px;
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  height: 2.8125rem;
+}
+.input[data-v-ad4deb87] {
+  width: 60%;
+  padding: 0.625rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.3125rem;
+  color: red;
+}
+.textarea[data-v-ad4deb87]{
+	padding: 0.625rem;
+	border: 0.0625rem solid #ccc;
+	border-radius: 0.3125rem;
+}
+.image-preview[data-v-ad4deb87] {
+  position: relative;
+  display: inline-block;
+  margin: 0.625rem;
+}
+.preview-image[data-v-ad4deb87] {
+  width: 5rem;
+  height: 5rem;
+}
+.delete-button[data-v-ad4deb87] {
+ position: absolute;
+   top: 0;
+   right: 0;
+   width: 1.875rem;
+   height: 1.875rem;
+   background-color: red;
+   color: white;
+   border: none;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+.button-row[data-v-ad4deb87] {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.625rem;
+}
+.button-group uni-button[data-v-ad4deb87] {
+  width: 48%;
+  margin-right: 2%;
+  margin-bottom: 10px;
+}
+.button-group uni-button[data-v-ad4deb87]:last-child {
+  margin-right: 0;
+}

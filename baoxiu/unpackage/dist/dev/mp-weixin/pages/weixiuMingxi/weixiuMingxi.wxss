@@ -1,0 +1,40 @@
+
+.container.data-v-6808e56c {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+.content.data-v-6808e56c{
+	width: 90%;
+	max-width: 800rpx; 
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40rpx;
+}
+.detail-item.data-v-6808e56c {
+  margin-bottom: 20px;
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+}
+strong.data-v-6808e56c{
+	line-height: 86rpx;
+}
+.xinxi.data-v-6808e56c{
+	width: 60%;
+	padding: 20rpx;
+	border: 2rpx solid #ccc;
+	border-radius: 10rpx;
+	color: red;
+	white-space: normal; /* 允许文字换行 */
+	word-break: break-all; /* 强制长单词或 URL 地址换行到下一行 */
+}
+image.data-v-6808e56c {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 20rpx;
+}
