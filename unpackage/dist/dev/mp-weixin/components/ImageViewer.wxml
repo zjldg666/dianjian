@@ -1,0 +1,1 @@
+<view wx:if="{{a}}" class="image-viewer-overlay" bindtap="{{d}}"><image src="{{b}}" class="image-viewer-image" catchtap="{{c}}"></image></view>

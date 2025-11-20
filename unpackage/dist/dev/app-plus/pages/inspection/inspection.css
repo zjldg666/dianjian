@@ -1,0 +1,129 @@
+
+.navbar[data-v-35616072] {
+  width: 100%;
+  height: 2.8125rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 1;
+  background: white;
+  color: black;
+  border-bottom: 1px solid #ccc;
+}
+.logoBox[data-v-35616072] {
+  position: absolute;
+  left: 1rem;
+  top: 0.4375rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  opacity: 1;
+}
+.logo[data-v-35616072] {
+  height: 1.875rem;
+}
+.username[data-v-35616072] {
+  margin-right: 0.625rem; /* 增加间距，使布局更合理 */
+  font-size: 0.875rem;
+}
+.nabutton[data-v-35616072] {
+  margin: 0.3125rem;
+  padding: 0;
+  width: 5.625rem;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0.625rem rgba(0,0,0,0.1);
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+/* 修复按钮激活状态的类名错误 */
+.nabutton[data-v-35616072]:active {
+  background-color: white;
+  color: white;
+   transform: scale(0.95) rotateZ(1.7deg);
+}
+
+
+.button-group[data-v-8e810d98] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* 组件按钮容器样式 */
+.ZujianButton-item[data-v-8e810d98] {
+  width: 32%;
+  margin-bottom: 0.625rem;
+}
+
+/* 组件按钮样式 */
+.ZujianButton[data-v-8e810d98] {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* 保持宽高比为 1:1 */
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* 确保内容垂直居中 */
+   /* 可以根据需要调整内边距 */
+  line-height: 1.2; /* 调整行距 */
+  position: relative; /* 添加相对定位以便 badge 定位 */
+}
+.ZujianButton[data-v-8e810d98]:disabled {
+  background-color: white;
+  color: black;
+  cursor: not-allowed;
+}
+.ZujianButton[data-v-8e810d98]:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+/* 添加 badge 样式 */
+.ZujianButton .badge[data-v-8e810d98] {
+  position: absolute;
+  top: 0.46875rem;
+  right: 0.46875rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 1.25rem;
+  font-size: 0.75rem;
+}
+
+/* 图片样式 */
+.button-image[data-v-8e810d98] {
+  width:5.3125rem;
+  height: 5.3125rem;
+  margin-bottom: 0.3125rem;
+}
+
+
+/* 容器样式 */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+/* 内容样式 */
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+}
+/* 标题样式 */
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+  color: #fff;
+}

@@ -1,0 +1,87 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40rpx;
+}
+.loading {
+  margin-top: 40rpx;
+  font-size: 32rpx;
+  color: #888;
+}
+.no-data {
+  margin-top: 40rpx;
+  font-size: 32rpx;
+  color: #888;
+}
+.detail-data {
+  margin-top: 40rpx;
+  font-size: 32rpx;
+  color: #333;
+}
+.detail-data h2 {
+  font-size: 40rpx;
+  margin-bottom: 20rpx;
+}
+.detail-data p {
+  margin: 10rpx 0;
+}
+.detail-data table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40rpx;
+}
+.detail-data th, .detail-data td {
+  border: 1px solid #ddd;
+  padding: 16rpx;
+  text-align: left;
+}
+.detail-data th {
+  background-color: #f5f5f5;
+}
+.arrow-button {
+  padding: 10rpx 20rpx;
+  border: none;
+  background-color: #007aff;
+  color: white;
+  border-radius: 10rpx;
+  margin: 0 10rpx;
+  cursor: pointer;
+}
+.arrow-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.status-button {
+  padding: 10rpx 20rpx;
+  border: none;
+  color: white;
+  border-radius: 10rpx;
+  margin: 0 5rpx;
+  cursor: pointer;
+}
+.check {
+  background-color: green;
+}
+.cross {
+  background-color: red;
+}
+.navigator-hover {
+  opacity: 0.8;
+}
+.DuiCuo {
+  width: 40rpx;
+  height: 40rpx;
+}
+.quanx{
+	background-color: orange;
+}
+

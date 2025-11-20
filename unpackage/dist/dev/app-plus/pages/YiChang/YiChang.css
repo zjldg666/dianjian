@@ -1,0 +1,189 @@
+
+.navbar[data-v-35616072] {
+  width: 100%;
+  height: 2.8125rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 1;
+  background: white;
+  color: black;
+  border-bottom: 1px solid #ccc;
+}
+.logoBox[data-v-35616072] {
+  position: absolute;
+  left: 1rem;
+  top: 0.4375rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  opacity: 1;
+}
+.logo[data-v-35616072] {
+  height: 1.875rem;
+}
+.username[data-v-35616072] {
+  margin-right: 0.625rem; /* 增加间距，使布局更合理 */
+  font-size: 0.875rem;
+}
+.nabutton[data-v-35616072] {
+  margin: 0.3125rem;
+  padding: 0;
+  width: 5.625rem;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0.625rem rgba(0,0,0,0.1);
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+/* 修复按钮激活状态的类名错误 */
+.nabutton[data-v-35616072]:active {
+  background-color: white;
+  color: white;
+   transform: scale(0.95) rotateZ(1.7deg);
+}
+
+
+.image-viewer-overlay[data-v-a9a40036] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.image-viewer-image[data-v-a9a40036] {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+
+.loading-overlay[data-v-19f97f1a] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.spinner[data-v-19f97f1a] {
+  --size: 30px;
+  --first-block-clr: #0051a3;
+  --second-block-clr: #fadd01;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin-bottom: 0.625rem;
+}
+.spinner[data-v-19f97f1a]::after,
+.spinner[data-v-19f97f1a]::before {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  width: var(--size);
+  height: var(--size);
+  top: 50%;
+  left: 50%;
+  background: var(--first-block-clr);
+  border-radius: 50%;
+  animation: up-19f97f1a 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;
+}
+.spinner[data-v-19f97f1a]::after {
+  background: var(--second-block-clr);
+  top: calc(50% - var(--size));
+  left: calc(50% - var(--size));
+  animation: down-19f97f1a 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;
+}
+@keyframes down-19f97f1a {
+0%, 100% { transform: none;
+}
+25% { transform: translateX(100%);
+}
+50% { transform: translateX(100%) translateY(100%);
+}
+75% { transform: translateY(100%);
+}
+}
+@keyframes up-19f97f1a {
+0%, 100% { transform: none;
+}
+25% { transform: translateX(-100%);
+}
+50% { transform: translateX(-100%) translateY(-100%);
+}
+75% { transform: translateY(-100%);
+}
+}
+.loading-text[data-v-19f97f1a] {
+  font-size: 0.875rem;
+  color: #666;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
+.content {
+  flex: 1;
+  padding: 1.25rem;
+  position: relative;
+}
+.header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.625rem;
+}
+.detail-item {
+  margin-bottom: 0.625rem;
+}
+.label {
+  font-weight: bold;
+  margin-right: 0.625rem;
+}
+.images-container {
+  position: relative;
+  display: inline-block;
+  margin: 0.625rem;
+}
+.image {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 0.625rem;
+  cursor: pointer;
+}
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.25rem;
+}
+uni-button {
+  padding: 0.625rem 1.25rem;
+  border: none;
+  background-color: #007AFF;
+  color: white;
+  border-radius: 0.3125rem;
+}
+uni-button:disabled {
+  background-color: #cccccc;
+}
+.Fuhao {
+  width: 0.78125rem;
+  height: 0.78125rem;
+}
+.no-data {
+  text-align: center;
+  padding: 1.25rem;
+  color: #999;
+}

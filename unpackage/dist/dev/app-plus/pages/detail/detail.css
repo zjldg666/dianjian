@@ -1,0 +1,131 @@
+
+.navbar[data-v-35616072] {
+  width: 100%;
+  height: 2.8125rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 1;
+  background: white;
+  color: black;
+  border-bottom: 1px solid #ccc;
+}
+.logoBox[data-v-35616072] {
+  position: absolute;
+  left: 1rem;
+  top: 0.4375rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  opacity: 1;
+}
+.logo[data-v-35616072] {
+  height: 1.875rem;
+}
+.username[data-v-35616072] {
+  margin-right: 0.625rem; /* 增加间距，使布局更合理 */
+  font-size: 0.875rem;
+}
+.nabutton[data-v-35616072] {
+  margin: 0.3125rem;
+  padding: 0;
+  width: 5.625rem;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0.625rem rgba(0,0,0,0.1);
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+/* 修复按钮激活状态的类名错误 */
+.nabutton[data-v-35616072]:active {
+  background-color: white;
+  color: white;
+   transform: scale(0.95) rotateZ(1.7deg);
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+}
+.loading {
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  color: #888;
+}
+.no-data {
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  color: #888;
+}
+.detail-data {
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  color: #333;
+}
+.detail-data h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.625rem;
+}
+.detail-data p {
+  margin: 0.3125rem 0;
+}
+.detail-data table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.25rem;
+}
+.detail-data th, .detail-data td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+.detail-data th {
+  background-color: #f5f5f5;
+}
+.arrow-button {
+  padding: 0.3125rem 0.625rem;
+  border: none;
+  background-color: #007aff;
+  color: white;
+  border-radius: 0.3125rem;
+  margin: 0 0.3125rem;
+  cursor: pointer;
+}
+.arrow-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.status-button {
+  padding: 0.3125rem 0.625rem;
+  border: none;
+  color: white;
+  border-radius: 0.3125rem;
+  margin: 0 0.15625rem;
+  cursor: pointer;
+}
+.check {
+  background-color: green;
+}
+.cross {
+  background-color: red;
+}
+.navigator-hover {
+  opacity: 0.8;
+}
+.DuiCuo {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.quanx{
+	background-color: orange;
+}
+

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "主菜单",
+  "usingComponents": {
+    "navbar": "../../components/Navbar",
+    "button-group": "../../components/ButtonGroup",
+    "loading-spinner": "../../components/LoadingSpinner"
+  }
+}

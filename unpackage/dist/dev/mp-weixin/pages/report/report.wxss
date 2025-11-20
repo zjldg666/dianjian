@@ -1,0 +1,160 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40rpx;
+  box-sizing: border-box;
+}
+.date-picker-container {
+  margin-bottom: 40rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.arrow-button {
+  padding: 20rpx 30rpx;
+  border: none;
+  background-color: #007aff;
+  color: white;
+  border-radius: 10rpx;
+  margin: 0 10rpx;
+  cursor: pointer;
+  font-size: 36rpx;
+  min-width: 80rpx;
+  text-align: center;
+}
+.arrow-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+.picker {
+  padding: 20rpx;
+  border: 1px solid #ddd;
+  border-radius: 10rpx;
+  width: 300rpx;
+  text-align: center;
+  font-size: 32rpx;
+  background-color: #f9f9f9;
+  color: #333;
+  box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.1);
+}
+.report-data table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40rpx;
+  border: 1px solid #ddd;
+  box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.05);
+  overflow: hidden;
+  border-radius: 12rpx;
+  background-color: #fff;
+}
+.report-data th, .report-data td {
+  border: 1px solid #eee;
+  padding: 24rpx 16rpx;
+  text-align: center; /* 所有内容居中 */
+  vertical-align: middle;
+  font-size: 32rpx;
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+.report-data th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  font-size: 34rpx;
+  padding: 24rpx 16rpx;
+  position: relative;
+}
+
+/* 设置各列宽度 */
+.report-data th:nth-child(1),
+.report-data td:nth-child(1) {
+  width: 15%; /* 区域描述 */
+  min-width: 120rpx;
+}
+.report-data th:nth-child(2),
+.report-data td:nth-child(2) {
+  width: 35%; /* 点检位置 */
+  min-width: 200rpx;
+}
+.report-data th:nth-child(3),
+.report-data td:nth-child(3) {
+  width: 15%; /* 区域负责人 */
+  min-width: 120rpx; /* 至少容纳3个汉字 */
+  white-space: nowrap; /* 防止换行 */
+}
+.report-data th:nth-child(4),
+.report-data td:nth-child(4) {
+  width: 15%; /* 日期列 */
+  min-width: 100rpx;
+}
+.check-button {
+  padding: 5rpx 10rpx;
+  border: none;
+  border-radius: 8rpx;
+  cursor: pointer;
+  background-color: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+.check-button:hover {
+  transform: scale(1.1);
+  background-color: #e6f2ff;
+}
+.DuiCuo {
+  width: 36rpx;
+  height: 36rpx;
+  display: block;
+}
+.centered-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-weight: bold;
+  color: #666;
+}
+.navigator-hover {
+  opacity: 0.8;
+  background-color: #f0f0f0;
+  border-radius: 8rpx;
+}
+.loading {
+  margin-top: 40rpx;
+  font-size: 32rpx;
+  color: #888;
+  text-align: center;
+}
+.no-data {
+  margin-top: 40rpx;
+  font-size: 32rpx;
+  color: #888;
+  text-align: center;
+}
+
+/* 响应式适配小屏幕 */
+@media screen and (max-width: 768px) {
+.report-data th, .report-data td {
+    padding: 16rpx 10rpx;
+    font-size: 28rpx;
+}
+.picker {
+    width: 240rpx;
+    font-size: 28rpx;
+}
+.arrow-button {
+    padding: 16rpx 20rpx;
+    font-size: 28rpx;
+}
+}

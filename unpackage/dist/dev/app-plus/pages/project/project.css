@@ -1,0 +1,173 @@
+
+.navbar[data-v-35616072] {
+  width: 100%;
+  height: 2.8125rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  opacity: 1;
+  background: white;
+  color: black;
+  border-bottom: 1px solid #ccc;
+}
+.logoBox[data-v-35616072] {
+  position: absolute;
+  left: 1rem;
+  top: 0.4375rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  opacity: 1;
+}
+.logo[data-v-35616072] {
+  height: 1.875rem;
+}
+.username[data-v-35616072] {
+  margin-right: 0.625rem; /* 增加间距，使布局更合理 */
+  font-size: 0.875rem;
+}
+.nabutton[data-v-35616072] {
+  margin: 0.3125rem;
+  padding: 0;
+  width: 5.625rem;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0.625rem rgba(0,0,0,0.1);
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+/* 修复按钮激活状态的类名错误 */
+.nabutton[data-v-35616072]:active {
+  background-color: white;
+  color: white;
+   transform: scale(0.95) rotateZ(1.7deg);
+}
+
+
+.container[data-v-e8179a1b] {
+	
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+}
+.content[data-v-e8179a1b] {
+	width: 100%%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title[data-v-e8179a1b] {
+  font-size: 1.25rem;
+  margin:1.25rem 0.625rem;
+}
+.image-preview[data-v-e8179a1b] {
+  position: relative;
+  display: inline-block;
+  margin: 0.625rem;
+}
+.preview-image[data-v-e8179a1b] {
+  width: 5rem;
+  height: 5rem;
+}
+.delete-button[data-v-e8179a1b] {
+ position: absolute;
+   top: 0;
+   right: 0;
+   width: 1.875rem;
+   height: 1.875rem;
+   background-color: red;
+   color: white;
+   border: none;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+.item[data-v-e8179a1b] {
+  width: 18.75rem;
+  padding: 1.25rem;
+  background-color: #fff;
+  box-shadow: 0 0 0.625rem rgba(0,0,0,0.1);
+  border-radius: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+.item-title[data-v-e8179a1b] {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.form-group[data-v-e8179a1b] {
+  margin-bottom: 0.9375rem;
+}
+.input[data-v-e8179a1b] {
+  width: 93%;
+  padding: 0.625rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.3125rem;
+}
+.button-group[data-v-e8179a1b]{
+	display: flex;
+	justify-content: space-between;
+}
+.Picbutton[data-v-e8179a1b]{
+	width: 90%;
+	padding: 0.625rem;
+	background-color: #007aff;
+	color: #fff;
+	text-align: center;
+	border: none;
+	border-radius: 0.3125rem;
+	cursor: pointer;
+}
+.button[data-v-e8179a1b] {
+  width: 40%;
+  padding: 0.625rem;
+  background-color: #007aff;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+.selButton[data-v-e8179a1b] {
+  width: 3.125rem; /* 设置固定宽度 */
+  height: 3.125rem; /* 设置固定高度 */
+  margin: 0.3125rem;
+  background-color: white; /* 默认灰色 */
+  color: #fff;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 50%; /* 圆形按钮 */
+  cursor: pointer;
+  display: flex; /* Flex 布局 */
+  align-items: center; /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+  overflow: hidden; /* 防止内容超出圆形边界 */
+}
+.selButton.selected[data-v-e8179a1b] {
+  background-color: #007aff; /* 选择后蓝色 */
+}
+.icon-image[data-v-e8179a1b] {
+  max-width: 100%; /* 图片最大宽度 */
+  max-height: 1.375rem; /* 图片最大高度 */
+  border-radius: 50%; /* 确保图片也是圆形 */
+}
+.uploaded-image[data-v-e8179a1b] {
+  width: 6.25rem;
+  height: 6.25rem;
+  margin-top: 0.625rem;
+}
+.message[data-v-e8179a1b] {
+  font-size: 1.125rem;
+  color: #333;
+  margin-bottom: 1.25rem;
+}
+.button[data-v-e8179a1b]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.button[data-v-e8179a1b]:active {
+  background-color: #005bb5;
+}

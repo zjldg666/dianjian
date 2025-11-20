@@ -1,0 +1,60 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
+.content {
+  flex: 1;
+  padding: 40rpx;
+  position: relative;
+}
+.header {
+  font-size: 48rpx;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+}
+.detail-item {
+  margin-bottom: 20rpx;
+}
+.label {
+  font-weight: bold;
+  margin-right: 20rpx;
+}
+.images-container {
+  position: relative;
+  display: inline-block;
+  margin: 20rpx;
+}
+.image {
+  width: 160rpx;
+  height: 160rpx;
+  margin-right: 20rpx;
+  cursor: pointer;
+}
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40rpx;
+}
+button {
+  padding: 20rpx 40rpx;
+  border: none;
+  background-color: #007AFF;
+  color: white;
+  border-radius: 10rpx;
+}
+button:disabled {
+  background-color: #cccccc;
+}
+.Fuhao {
+  width: 25rpx;
+  height: 25rpx;
+}
+.no-data {
+  text-align: center;
+  padding: 40rpx;
+  color: #999;
+}

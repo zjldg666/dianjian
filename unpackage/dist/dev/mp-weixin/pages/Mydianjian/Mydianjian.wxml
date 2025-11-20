@@ -1,0 +1,1 @@
+<view class="container"><navbar wx:if="{{b}}" bindlogout="{{a}}" u-i="51791b15-0" bind:__l="__l" u-p="{{b}}"/><view class="content"><button-group wx:if="{{c}}" u-i="51791b15-1" bind:__l="__l" u-p="{{c}}"/></view></view>

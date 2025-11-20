@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "缺失提醒",
+  "usingComponents": {
+    "navbar": "../../components/Navbar",
+    "button-group": "../../components/ButtonGroup"
+  }
+}

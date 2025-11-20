@@ -1,0 +1,1 @@
+<view class="navbar data-v-35616072"><view class="logoBox data-v-35616072"><image class="logo data-v-35616072" src="{{a}}" mode="heightFix"></image></view><block wx:if="{{b}}"><view class="username data-v-35616072">{{c}}</view><button bindtap="{{d}}" class="nabutton data-v-35616072">退出</button></block></view>

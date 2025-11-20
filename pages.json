@@ -1,0 +1,113 @@
+{
+    "pages" : [
+        {
+            "path" : "pages/login/login",
+            "style" : {
+                "navigationBarTitleText" : "登陆"
+            }
+        },
+		 {
+		  "path": "uni_modules/uni-upgrade-center-app/pages/upgrade-popup",
+		  "style": {
+		    "disableScroll": true,
+		    "app-plus": {
+		      "backgroundColorTop": "transparent",
+		      "background": "transparent",
+		      "titleNView": false,
+		      "scrollIndicator": false,
+		      "popGesture": "none",
+		      "animationType": "fade-in",
+		      "animationDuration": 200
+		    }
+		  }
+		},
+        {
+            "path" : "pages/inspection/inspection",
+            "style" : {
+                "navigationBarTitleText" : "所有点检",
+				"enablePullDownRefresh": true
+            }
+        },
+     
+        {
+            "path" : "pages/home/home",
+            "style" : {
+                "navigationBarTitleText" : "主菜单"
+            }
+        },
+        {
+            "path" : "components/Navbar",
+            "style" : {}
+        },
+        {
+        	"path" : "pages/project/project",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "点检项目",
+				"enablePullDownRefresh": true
+        	}
+        },
+        {
+        	"path" : "pages/Mydianjian/Mydianjian",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "我的点检"
+        	}
+        },
+        {
+        	"path" : "pages/remind/remind",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "缺失提醒"
+        	}
+        },
+        {
+        	"path" : "pages/YiChang/YiChang",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "异常处理"     
+        	}
+		
+        },
+        {
+        	"path" : "pages/report/report",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "简单报表"
+        	}
+        },
+        {
+        	"path" : "pages/detail/detail",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : ""
+        	}
+        },
+        {
+        	"path" : "pages/result/result",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : ""
+        	}
+        }
+       
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "uni-app",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "uniIdRouter" : {},
+    "condition" : {
+        //模式配置，仅开发期间生效
+        "current" : 0, //当前激活的模式(list 的索引项)
+        "list" : [
+            {
+                "name" : "", //模式名称
+                "path" : "", //启动页面，必选
+                "query" : "" //启动参数，在页面的onLoad函数里面得到
+            }
+        ]
+    }
+}

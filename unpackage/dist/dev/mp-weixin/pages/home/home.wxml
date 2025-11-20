@@ -1,0 +1,1 @@
+<view class="container"><navbar wx:if="{{b}}" bindlogout="{{a}}" u-i="70eace16-0" bind:__l="__l" u-p="{{b}}"/><view class="content"><loading-spinner wx:if="{{c}}" u-i="70eace16-1" bind:__l="__l" u-p="{{c}}"/><button-group wx:if="{{d}}" u-i="70eace16-2" bind:__l="__l" u-p="{{e}}"/></view></view>

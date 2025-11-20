@@ -1,0 +1,22 @@
+"use strict";
+const _imports_0$3 = "/static/logo.png";
+const _imports_0$2 = "/uni_modules/uni-upgrade-center-app/static/app/bg_top.png";
+const _imports_1$2 = "/uni_modules/uni-upgrade-center-app/static/app/app_update_close.png";
+const _imports_0$1 = "/static/dui.png";
+const _imports_1$1 = "/static/NT.png";
+const _imports_2$2 = "/static/cuo.png";
+const _imports_2$1 = "/static/quanx.png";
+const _imports_0 = "/static/whiteIcon/wDui.png";
+const _imports_1 = "/static/whiteIcon/wCuo.png";
+const _imports_2 = "/static/whiteIcon/wQuanx.png";
+exports._imports_0 = _imports_0$3;
+exports._imports_0$1 = _imports_0$2;
+exports._imports_0$2 = _imports_0$1;
+exports._imports_0$3 = _imports_0;
+exports._imports_1 = _imports_1$2;
+exports._imports_1$1 = _imports_1$1;
+exports._imports_1$2 = _imports_1;
+exports._imports_2 = _imports_2$2;
+exports._imports_2$1 = _imports_2$1;
+exports._imports_2$2 = _imports_2;
+//# sourceMappingURL=../../.sourcemap/mp-weixin/common/assets.js.map

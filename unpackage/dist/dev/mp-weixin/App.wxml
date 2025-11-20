@@ -1,0 +1,1 @@
+<view class="app data-v-f13b4d11"><navbar wx:if="{{a}}" class="data-v-f13b4d11" bindlogout="{{b}}" u-i="f13b4d11-0" bind:__l="__l" u-p="{{c}}"/><view class="content data-v-f13b4d11"><slot></slot></view></view>

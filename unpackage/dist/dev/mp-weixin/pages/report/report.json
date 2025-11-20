@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "简单报表",
+  "usingComponents": {
+    "navbar": "../../components/Navbar"
+  }
+}
